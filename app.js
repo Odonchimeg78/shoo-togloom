@@ -80,7 +80,8 @@ if (isNewGame) {
 
                  if (diceNumber !== 1) {
                   //1-ээс ялгаатай тоо буулаа. Буусан тоог тоглогчид нэмж өгнө.
-                roundScore = (roundScore + diceNumber);
+                                var roundScore = diceNumber
+                // roundScore = (roundScore + diceNumber);
                              
                                  
                 document.getElementById("current-" + activePlayer).textContent = roundScore;
